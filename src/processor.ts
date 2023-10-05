@@ -26,8 +26,7 @@ export const processor = new EvmBatchProcessor()
     },
   })
   .setBlockRange({
-    // from: 11_022_769,
-    from: 18077817,
+    from: 11_022_769,
   })
   .addLog({
     address: [MUSE_ADDRESS],
